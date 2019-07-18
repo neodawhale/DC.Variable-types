@@ -9,13 +9,16 @@ puts the ranking in random order, making it difficult to find which is the bette
 2. What are the types of the following variables?
 
 -Age = Categorical or (both?). Depends on what we are looking for. If we are looking for the difference in age groups, we want to 
-treat it as an interval variable. 
+treat it as an ratio continuous variable. Or, it can be nominal categorical since we are
+taking the given number of people that exist.
 
--Salary = Categorical. People pay rate is another form of rank??
+-Salary = Ordinal Categorical. People pay rate is another form of rank??
 
--Revenue = Continuous, Company, businesses etc revenues are always changing.
+-Revenue = Ratio Continuous. Company, businesses etc revenues are always changing. If a company's revenue reaches the meaningful value
+of $0, there will be no business. 
 
--Customer type = Categorical, nominal variable. The order of customer type may not matter when collecting this type of data. You may find 
-out the customer type from surveys and such.
+-Customer type = Nominal Categorical. Using the given number of people, we can use a survey to collect the types of customers. The order
+of the customer type would not matter since we arent ranking.
 
--Stock price = Continuous, stock price always change. A ratio variable. 
+-Stock price = Ratio Continuous variable. stock price always change. However, if a company reaches the absolute zero value, then all
+of the company's value is lost. 
