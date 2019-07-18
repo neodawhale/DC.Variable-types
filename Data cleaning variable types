@@ -1,0 +1,21 @@
+1. Consider the advantages and disadvantages of treating the Rank variable as categorical. 
+
+The rank variable is among the ordinal variables. It tells us the number one spot is 1st place, the number two spot is 2nd place, the 
+number three spot is third best, and so on. The advantages of treating the rank variable as categorical is having the best on top and 
+going down in descending order. The disadvantages of having it treated as categorical is looking at it as a nominal variable. Doing that 
+puts the ranking in random order, making it difficult to find which is the better person when searching.
+
+
+2. What are the types of the following variables?
+
+-Age = Categorical or (both?). Depends on what we are looking for. If we are looking for the difference in age groups, we want to 
+treat it as an interval variable. 
+
+-Salary = Categorical. People pay rate is another form of rank??
+
+-Revenue = Continuous, Company, businesses etc revenues are always changing.
+
+-Customer type = Categorical, nominal variable. The order of customer type may not matter when collecting this type of data. You may find 
+out the customer type from surveys and such.
+
+-Stock price = Continuous, stock price always change. A ratio variable. 
